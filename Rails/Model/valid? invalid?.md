@@ -22,6 +22,6 @@ end
 エラーが発生した場合`true`，エラーが無い場合`false`を返す
 
 ## 参考
-[Active Record バリデーション - Rails ガイド] (https://railsguides.jp/active_record_validations.html#valid-questionmark%E3%81%A8invalid-questionmark)
+* [Active Record バリデーション - Rails ガイド](https://railsguides.jp/active_record_validations.html#valid-questionmark%E3%81%A8invalid-questionmark)
 
-[13.1.2 Micropostのバリデーション - Railsチュートリアル] (https://railstutorial.jp/chapters/user_microposts?version=5.1#sec-micropost_validations)
+* [13.1.2 Micropostのバリデーション - Railsチュートリアル](https://railstutorial.jp/chapters/user_microposts?version=5.1#sec-micropost_validations)

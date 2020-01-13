@@ -29,4 +29,4 @@ user = User.find_by(id: 1)
 ```
 
 ## 参考リンク
-[Active Record クエリインターフェイス - Rails ガイド] (https://railsguides.jp/active_record_querying.html)
+* [Active Record クエリインターフェイス - Rails ガイド](https://railsguides.jp/active_record_querying.html)

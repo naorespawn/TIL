@@ -26,4 +26,4 @@ user.update_attribute(name: "qiita")
 特定の要素のみ更新し，検証を回避する
 
 ## 参考
-[第6章 ユーザーのモデルを作成する - Railsチュートリアル](https://railstutorial.jp/chapters/modeling_users?version=4.2#sec-updating_user_objects)
+* [第6章 ユーザーのモデルを作成する - Railsチュートリアル](https://railstutorial.jp/chapters/modeling_users?version=4.2#sec-updating_user_objects)

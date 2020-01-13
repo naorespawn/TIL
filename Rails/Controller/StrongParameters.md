@@ -19,5 +19,5 @@ private
 ```
 
 ## リンク
-* [Strong Parameters - Railsガイド] (https://railsguides.jp/action_controller_overview.html#strong-parameters)
-* [GitHub、Mass Assignment利用の脆弱性を突かれる] (https://www.infoq.com/jp/news/2012/03/GitHub-Compromised/)
+* [Strong Parameters - Railsガイド](https://railsguides.jp/action_controller_overview.html#strong-parameters)
+* [GitHub、Mass Assignment利用の脆弱性を突かれる](https://www.infoq.com/jp/news/2012/03/GitHub-Compromised/)
