@@ -3,35 +3,39 @@
 ## イメージ
 ```bash
 # イメージの取得
-$ docker image pull ruby:latest
-# イメージの確認
-$ docker image ls
+$ docker image pull IMAGE_ID
+# イメージの作成 (Dockerfileから)
+$ docker build
+# イメージの一覧
+$ docker images
 # イメージの削除
-$ docker rmi IMAGE_ID
+$ docker rmi
+# コンテナからイメージを作成
+$ docker commit
 ```
 
 ## コンテナ
 ```bash
 # コンテナの作成
-$ docker container create --name ruby IMAGE_ID
-# コンテナの確認
-$ docker container ls -a
+$ docker create --name CONTAINER_NAME IMAGE_ID
+# コンテナの一覧
+$ docker ps
 # コンテナの削除
-$ docker container rm CONTAINER_ID
+$ docker rm CONTAINER_ID
 # コンテナの実行
-$ docker container start CONTAINER_ID
+$ docker start CONTAINER_ID
 # コンテナの停止
-$ docker container stop CONTAINER_ID
+$ docker stop CONTAINER_ID
 ```
 
 ## docker-compose
 ```bash
 # イメージの構築
 $ docker-compose build
-# コンテナの構築, 起動
-$ docker-compose up
 # コンテナの起動
 $ docker-compose start
+# コンテナを構築し，起動
+$ docker-compose up
 ```
 
 ## 全削除
