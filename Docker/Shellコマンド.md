@@ -2,13 +2,13 @@
 
 ## イメージ
 ```bash
-# イメージの取得
+# イメージ取得
 $ docker image pull IMAGE_ID
-# イメージの作成 (Dockerfileから)
+# イメージ作成 (Dockerfileから)
 $ docker build
-# イメージの一覧
-$ docker images
-# イメージの削除
+# イメージ一覧
+$ docker images -a
+# イメージ削除
 $ docker rmi
 # コンテナからイメージを作成
 $ docker commit
@@ -31,11 +31,11 @@ $ docker stop CONTAINER_ID
 ## docker-compose
 ```bash
 # イメージの構築
-$ docker-compose build
+$ docker-compose build --no-cache
 # コンテナの起動
 $ docker-compose start
 # コンテナを構築し，起動
-$ docker-compose up
+$ docker-compose up -d
 ```
 
 ## 全削除
