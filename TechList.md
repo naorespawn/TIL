@@ -29,6 +29,7 @@
 * DevOps
 * Python
 * Nginx
+* GraphOL
 
 
 
